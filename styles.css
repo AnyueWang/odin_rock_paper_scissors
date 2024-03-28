@@ -1,0 +1,83 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    background-color: #B3E672;
+}
+
+.title {
+    color: #5C5266;
+}
+
+.playground {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.playzone {
+    border: 5px solid #5C5266;
+    width: 35%;
+    height: 35vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.choice {
+    width: 8%;
+}
+
+.container {
+    text-align: center;
+}
+
+.play {
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: 5px solid #5C5266;
+    background-color: #B3E672;
+}
+
+.hover {
+    transform: rotate(45deg);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.hover-play {
+    background-color: green!important;
+}
+
+.my-area, .computer-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score {
+    font-size: 30px;
+}
+
+#my-choice, #computer-choice {
+    border: 5px solid #5C5266;
+    height: 100px;
+    width: 100px;
+}
+
+.show-choice {
+    width: 80px;
+    padding-top: 10px;
+}

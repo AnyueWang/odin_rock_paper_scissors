@@ -4,14 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Homepage</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-
-    <h1>Game: Rock, Paper, and Scissors</h1>
-    <button class="play">Play</button>
-    <div class="results">
-        <h2>Results:</h2>
+    <div class="container">
+        <h1 class="title">Rock🪨 Paper📄 Scissors✂️</h1>
+        <div class="playground">
+            <div class="playzone player">
+                <h2 class="title">You</h2>
+                <div class="my-area">
+                    <div id="my-choice"></div>
+                    <div class="title score">
+                        <p>Score</p>
+                        <p id="my-score">0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="playzone computer">
+                <h2 class="title">Computer</h2>
+                <div class="computer-area">
+                    <div class="title score">
+                        <p>Score</p>
+                        <p id="computer-score">0</p>
+                    </div>
+                    <div id="computer-choice"></div>
+                </div>
+            </div>
+        </div>
+        <div class="choices">
+            <img class="choice" id="rock" src="./images/rock.svg" alt="rock" />
+            <img class="choice" id="paper" src="./images/paper.svg" alt="paper" />
+            <img class="choice" id="scissors" src="./images/scissors.svg" alt="scissors" />
+        </div>
+        <button class="play title">Play 5 rounds!</button>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
